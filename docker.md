@@ -12,6 +12,12 @@
 - Optional integration with **Cloudflare Email Routing** for custom domain support.
 - Flexible user mapping to route specific email addresses to Discord IDs.
 
+## Images
+
+![Example Short Email Embed](https://i.postimg.cc/ZRYqyTfZ/image.png "Short Email Embed")
+
+![Example Long Email Embed With Two Parts](https://i.postimg.cc/fLHRc6Fd/image.png "Two Part Email Embed")
+
 ## Requirements
 - An IMAP-compatible email account (e.g., Gmail).
 - A Discord bot token.

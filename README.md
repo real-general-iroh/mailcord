@@ -1,6 +1,6 @@
 # Mailcord
 
-**Mailcord** is a GPLv3-licensed Python application that bridges your IMAP email inbox with Discord, forwarding emails as rich embeds to Discord users or channels. It is configurable, lightweight, and designed for ease of deployment with Docker or Docker Compose.
+**Mailcord** is a GPLv3-licensed Python application that bridges your IMAP email inbox with Discord, forwarding emails as rich embeds to Discord users. It is configurable, lightweight, and designed for ease of deployment with Docker or Docker Compose.
 
 ## Features
 - Fetches unseen emails from any IMAP-compatible server (e.g., Gmail).
@@ -9,6 +9,12 @@
 - Configurable polling interval for checking new emails.
 - Integrates seamlessly with email routing services (e.g., Cloudflare Email Routing).
 - Supports optional user mapping to route emails from specific addresses or domains to Discord users.
+
+## Images
+
+![Example Short Email Embed](https://i.postimg.cc/ZRYqyTfZ/image.png "Short Email Embed")
+
+![Example Long Email Embed With Two Parts](https://i.postimg.cc/fLHRc6Fd/image.png "Two Part Email Embed")
 
 ## Known Limitations
 1. **Garbage In, Garbage Out**: If an email is poorly formatted or just plain horrible, it will look equally terrible in the Discord embed. This is why the `MAINTAINER_ID` is required—to include a note pointing users to someone who can fix or interpret the mess.
